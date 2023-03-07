@@ -1,0 +1,9 @@
+.portfolio__item__description{
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
+
+.portfolio__item__description--bold{
+    font-weight: 600;
+    line-height: 2;
+}

@@ -1,0 +1,28 @@
+.skills__skill{
+    background-color: var(--dark-color);
+    border-radius: 50px;
+    color: var(--clear-color);
+    display: block;
+    padding: 5px 10px;
+    transition: .25s linear;
+    border: 2px solid transparent;
+}
+
+.skills__skill:hover{
+    color: var(--dark-color);
+    border-radius: 44px;
+    background: #e0e0e0;
+    box-shadow:  40px 40px 59px #cccccc,
+                -40px -40px 59px #f4f4f4;
+    cursor: pointer;
+}
+
+.skills__skill--ativo{
+    border-color: var(--dark-color);
+    color: var(--dark-color);
+    border-radius: 44px;
+    background: #e0e0e0;
+    box-shadow:  40px 40px 59px #cccccc,
+                -40px -40px 59px #f4f4f4;
+    cursor: pointer;
+}

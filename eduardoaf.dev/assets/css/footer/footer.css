@@ -1,0 +1,5 @@
+.footer{
+    background-color: var(--dark-color);
+    padding-bottom: 1rem;
+    color: var(--clear-color);
+}

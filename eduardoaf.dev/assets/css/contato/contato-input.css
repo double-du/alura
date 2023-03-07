@@ -1,0 +1,25 @@
+.contato__input{
+    background-color: var(--clear-color);
+    border-radius: 05px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    outline: none;
+    border: 2px solid transparent;
+    transition: ease .25s;
+}
+
+.contato__input.contato__input:focus{
+    border-color: rgb(219, 169, 149);
+}
+
+.contato__input--textarea{
+    min-height: 200px;
+    font-family: 'Open Sans', sans-serif;
+}

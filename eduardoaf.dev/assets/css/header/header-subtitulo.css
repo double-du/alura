@@ -1,0 +1,9 @@
+.header__subtitulo::after{
+    background-image: linear-gradient( to right, var(--dark-color), var(--clear-color), var(--dark-color));
+    border-radius: 10px;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 1rem auto;
+    width: 100px;
+}

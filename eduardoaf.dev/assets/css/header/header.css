@@ -1,0 +1,5 @@
+.header{
+    background-color: var(--dark-color);
+    color: var(--clear-color);
+    height: 100vh;
+}

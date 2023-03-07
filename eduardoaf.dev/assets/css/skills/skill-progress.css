@@ -1,0 +1,133 @@
+.skill__progress{
+    text-align: right; /* Right-align text */
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    color: white; /* White text color */
+    background-color: var(--dark-color);
+    padding-right: 10px;
+    border-radius: 100px;
+    box-shadow: 5px 0 7px 1px rgb(0 0 0 / 25%);
+}
+
+.skill__progress--ativo.skill__progress--html{
+    width: 95%;
+    animation-name: html;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--css{
+    width: 95%;
+    animation-name: css;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--js{
+    width: 80%;
+    animation-name: js;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--ts{
+    width: 50%;
+    animation-name: ts;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--php{
+    width: 75%;
+    animation-name: php;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--java{
+    width: 30%;
+    animation-name: java;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--modeling{
+    width: 85%;
+    animation-name: modeling;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--mysql{
+    width: 85%;
+    animation-name: mysql;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--oracle{
+    width: 70%;
+    animation-name: oracle;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--photoshop{
+    width: 75%;
+    animation-name: photoshop;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--illustrator{
+    width: 25%;
+    animation-name: illustrator;
+    animation-duration: 1s;
+}
+.skill__progress--ativo.skill__progress--office{
+    width: 50%;
+    animation-name: office;
+    animation-duration: 1s;
+}
+
+.skill__progress--html{width: 0}
+.skill__progress--css{width: 0}
+.skill__progress--js{width: 0}
+.skill__progress--ts{width: 0}
+.skill__progress--php{width: 0}
+.skill__progress--java{width: 0}
+.skill__progress--modeling{width: 0}
+.skill__progress--mysql{width: 0}
+.skill__progress--oracle{width: 0}
+.skill__progress--photoshop{width: 0}
+.skill__progress--illustrator{width: 0}
+.skill__progress--office{width: 0}
+
+@keyframes html{
+    from{width: 0;}
+    to{width: 95%;}
+}
+@keyframes css{
+    from{width: 0;}
+    to{width: 95%;}
+}
+@keyframes js{
+    from{width: 0;}
+    to{width: 80%;}
+}
+@keyframes ts{
+    from{width: 0;}
+    to{width: 50%;}
+}
+@keyframes php{
+    from{width: 0;}
+    to{width: 75%;}
+}
+@keyframes java{
+    from{width: 0;}
+    to{width: 30%;}
+}
+@keyframes modeling{
+    from{width: 0;}
+    to{width: 85%;}
+}
+@keyframes mysql{
+    from{width: 0;}
+    to{width: 85%;}
+}
+@keyframes oracle{
+    from{width: 0;}
+    to{width: 70%;}
+}
+@keyframes photoshop{
+    from{width: 0;}
+    to{width: 75%;}
+}
+@keyframes illustrator{
+    from{width: 0;}
+    to{width: 25%;}
+}
+@keyframes office{
+    from{width: 0;}
+    to{width: 50%;}
+}

@@ -1,0 +1,16 @@
+.contato__button{
+    padding: 1rem;
+    font-size: 1rem;
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--clear-color);
+    border: 2px solid var(--clear-color);
+    border-radius: 5px;
+    transition: ease .25s;
+}
+
+.contato__button:hover{
+    background-color: var(--clear-color);
+    color: var(--dark-color);
+    cursor: pointer;
+}
